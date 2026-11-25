@@ -1,0 +1,104 @@
+
+NAND2TETRIS CAPSTONE PROJECT
+
+PROJECT TITLE:
+MAKE THE COMPUTER DRAW A BOX
+
+STUDENT NAME:
+Alok Kumar
+
+PROGRAM:
+B.Tech CSE Core
+
+SUBMITTED TO:
+Alina Chakraborty Banerjee
+
+DEPARTMENT:
+SOET
+
+
+1. INTRODUCTION
+
+The NAND2Tetris Capstone Project focuses on understanding computer architecture and hardware implementation.
+
+In this project, we developed a Hack Assembly program that makes a computer draw a large filled black box at the center of the screen.
+
+
+2. OBJECTIVES
+
+- To understand Hack computer architecture.
+- To learn Assembly language programming.
+- To understand CPU and memory components.
+- To develop a Python-based assembler.
+- To execute a program using the CPU Emulator.
+- To generate a filled black box on the screen.
+
+
+3. TECHNOLOGIES USED
+
+- Python
+- Hack Assembly Language
+- Hardware Description Language
+- NAND2Tetris Simulator
+- Visual Studio Code
+- GitHub
+
+
+4. HARDWARE ARCHITECTURE
+
+The project uses three major hardware components:
+
+CPU:
+Executes instructions and performs calculations.
+
+Memory:
+Stores data and provides access to screen memory.
+
+Computer:
+Connects CPU, Memory and ROM to execute programs.
+
+
+5. PROGRAM WORKING
+
+The assembly program calculates the starting screen memory address.
+
+The program uses registers to store:
+- Starting memory address
+- Number of rows
+- Number of words per row
+
+It writes black pixels into screen memory.
+
+The process repeats until all 80 rows are completed.
+
+
+6. BOX SPECIFICATIONS
+
+Screen Width: 512 pixels
+Screen Height: 256 pixels
+
+Box Width: 128 pixels
+Box Height: 80 rows
+
+Starting X Position: 192
+Starting Y Position: 88
+
+Box Color: Black
+Background Color: White
+
+
+7. OUTPUT
+
+The Hack computer executes the assembly program and displays a large, centered, filled black rectangular box on the screen.
+
+
+8. CONCLUSION
+
+This project helped us understand the basic working of a computer system.
+
+We learned how Assembly language instructions interact with CPU registers and memory.
+
+The project demonstrates how software instructions can control hardware to generate graphical output.
+
+
+END OF REPORT
